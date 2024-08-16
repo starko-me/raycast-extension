@@ -1,3 +1,4 @@
-# Create a ticket
+Starko ONE
+Create, issues from anywhere on your Mac.
 
-Creates a ticket on Starko ONE
+The linear extension helps you open issues from any place in your mac, no need to open the app, everything just works.

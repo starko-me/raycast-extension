@@ -5,6 +5,7 @@
   "description": "Creates a ticket on Starko ONE",
   "icon": "extension-icon.png",
   "author": "starko00",
+  
   "owner": "starko",
   "categories": [
     "Productivity",
@@ -14,15 +15,17 @@
   "commands": [
     {
       "name": "create-issue-ticket",
-      "title": "Create Issue/Ticket",
-      "subtitle": "Add a new issue ",
-      "description": "Creates a new issue in your Starko ONE workspace",
+      "title": "Starko Create Issue/Ticket",
+      "subtitle": "Add a new issue to your Starko ONE workspace",
+      "description": "Creates a new issue in your Starko ONE workspace, include a tittle, description and tags. This extension will be expanded in the future to include more features.",
       "mode": "view"
     }
   ],
   "dependencies": {
     "@raycast/api": "^1.81.0",
-    "@raycast/utils": "^1.16.3"
+    "@raycast/utils": "^1.16.3",
+    "starko-plug": "^1.0.8",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.8",
